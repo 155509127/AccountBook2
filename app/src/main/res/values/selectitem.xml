@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select">
+        <item>服装</item>
+        <item>食物</item>
+        <item>住宿</item>
+        <item>出行</item>
+        <item>其它</item>
+        <item>网上余额</item>
+        <item>银行余额</item>
+        <item>现金</item>
+    </string-array>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".res">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/cloth"
+                android:text="服装"
+                android:textSize="@android:dimen/app_icon_size"
+                android:background="@android:color/holo_red_light"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/food"
+                android:text="食物"
+                android:textSize="@android:dimen/app_icon_size"
+                android:background="@android:color/holo_green_light"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/host"
+                android:text="住宿"
+                android:textSize="@android:dimen/app_icon_size"
+                android:background="@android:color/holo_green_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/travel"
+                android:text="出行"
+                android:textSize="@android:dimen/app_icon_size"
+                android:background="@android:color/holo_blue_bright"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/other"
+                android:text="其它"
+                android:textSize="@android:dimen/app_icon_size"
+                android:background="@android:color/darker_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+    <Button
+        android:id="@+id/buttonsort"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Button"
+        android:layout_weight="1"
+        />
+    </LinearLayout>
+</FrameLayout>
